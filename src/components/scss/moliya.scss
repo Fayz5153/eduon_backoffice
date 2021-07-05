@@ -1,0 +1,47 @@
+.moliya{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+.moliya__1{
+    a{
+        font-family: Gilroy-Medium;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(17, 17, 17, 0.54);
+        padding: 14px 16px;
+        transition: 0.3s;
+    }
+    padding-left: 30px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+}
+.moliya__activ{
+    background: #E7F0FF;
+    border-radius: 12px;
+    color: #006AFF !important;
+    transition: 0.3s;
+}
+.moliya__2{
+    padding-top: 30px;
+    padding-left: 30px;
+    .moliya__tr{
+        display: grid;
+        grid-template-columns: 2fr 2fr 3fr 2fr 2fr;
+        align-items: center;
+        background: rgba(17, 17, 17, 0.03);
+        border-radius: 18px;
+        padding-left: 38px;
+        padding-right: 70px;
+        margin-bottom: 12px;
+        p{
+            font-family: Gilroy-Medium;
+            font-size: 16px;
+            line-height: 19px;
+            color: #111111;
+            opacity: 0.72;
+            padding-top: 27px;
+            padding-bottom: 27px;
+        }
+    }
+}

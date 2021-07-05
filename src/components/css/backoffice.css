@@ -1,0 +1,116 @@
+.backoffice {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 5fr;
+      grid-template-columns: 1fr 5fr;
+  margin-top: 40px;
+}
+
+.backoffice__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-right: 1px solid #1111110f;
+  padding-right: 18px;
+}
+
+.backoffice__left .activ__nav {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #006AFF;
+  background: #E7F0FF;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.backoffice__left .activ__nav #Chart path {
+  fill: #006AFF;
+}
+
+.backoffice__left a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 210px;
+  height: 52px;
+  border-radius: 12px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(17, 17, 17, 0.36);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.backoffice__left a img {
+  padding: 8px;
+  margin: 8px;
+  background: #FDFDFE;
+  border-radius: 8px;
+}
+
+.backoffice__left a object {
+  padding: 7px 8px 4px 8px;
+  background: #FDFDFE;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.eduonga__foydasi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 70px;
+  width: 234px;
+  height: 90px;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 18px;
+}
+
+.eduonga__foydasi h1 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #111111;
+  margin-left: 24px;
+}
+
+.eduonga__foydasi h2 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  margin-left: 24px;
+}

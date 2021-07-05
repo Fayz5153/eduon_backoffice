@@ -1,0 +1,228 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Samsung Sharp Sans';
+  src: url(../fonts/samsungsharpsans.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.backoffice__fixed {
+  height: 100px;
+  width: 100%;
+}
+
+.navbar__backoffice {
+  background: #006AFF;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 100;
+  margin: 0;
+}
+
+.navbar__backoffice nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100px;
+}
+
+.navbar__backoffice button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.navbar__backoffice button img {
+  width: 20px;
+}
+
+.navbar__bo__left button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.navbar__bo__left input {
+  padding: 7px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  width: 300px;
+  margin: 10px;
+  color: #006AFF;
+}
+
+.navbar__bo__left .bo__searchdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__bo__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar__bo__right .language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.navbar__bo__right .language p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.navbar__bo__right .language img {
+  margin-left: 5px;
+}
+
+.navbar__bo__right .language .languages {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar__bo__right .language ul {
+  position: absolute;
+  margin: 100px 0px 0px -28px;
+  height: 80px;
+  padding: 0 20px 20px 20px;
+  background: #006AFF;
+  border-radius: 18px;
+}
+
+.navbar__bo__right .language li {
+  list-style-type: none;
+  margin: 5px 0;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar__bo__right .language li a {
+  margin: 0 auto;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.navbar__bo__right .language li:hover {
+  background: #03439c88;
+  border-radius: 18px;
+}
+
+.navbar__bo__right .language:hover .languages {
+  display: block;
+}
+
+.navbar__admin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar__admin .admin__pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  margin-right: 12px;
+  overflow: hidden;
+}
+
+.navbar__admin h1 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+}
+
+.navbar__admin h2 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.015em;
+  color: rgba(255, 255, 255, 0.54);
+}

@@ -1,0 +1,133 @@
+.sozlamalar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sozlamalar__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+  padding-left: 30px;
+}
+
+.sozlamalar__1 h1 {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #111111;
+  padding-bottom: 6px;
+}
+
+.sozlamalar__1 h1 span {
+  opacity: 0.54;
+}
+
+.sozlamalar__1 h2 {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+}
+
+.sozlamalar__1 .sozlama1 {
+  width: 254px;
+  height: 90px;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 18px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sozlamalar__1 .sozlama1__2 {
+  border-radius: 50%;
+  background: #006aff26;
+}
+
+.sozlamalar__1 .sozlama1__2 img {
+  width: 24px;
+  height: 24px;
+}
+
+.sozlamalar__1 .sozlama1__2 a {
+  padding: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sozlamalar__2 {
+  padding-left: 30px;
+}
+
+.sozlamalar__2 p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(17, 17, 17, 0.36);
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 6px;
+}
+
+.sozlamalar__2 a {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #006AFF;
+  padding: 24px 30px;
+  background: #E7F0FF;
+  border-radius: 18px;
+}
+
+.sozlamalar__2 .sozlama__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sozlamalar__2 .sozlama__input input {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: #111111;
+  width: 334px;
+  height: 76px;
+  background: rgba(17, 17, 17, 0.02);
+  border-radius: 18px;
+  padding-left: 30px;
+  padding-bottom: 6px;
+  border: none;
+  outline: none;
+}
+
+.sozlamalar__2 .sozlama__input a {
+  margin-left: 12px;
+}

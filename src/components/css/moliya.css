@@ -1,0 +1,64 @@
+.moliya {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 18px;
+}
+
+.moliya__1 {
+  padding-left: 30px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.moliya__1 a {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(17, 17, 17, 0.54);
+  padding: 14px 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.moliya__activ {
+  background: #E7F0FF;
+  border-radius: 12px;
+  color: #006AFF !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.moliya__2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.moliya__2 .moliya__tr {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 3fr 2fr 2fr;
+      grid-template-columns: 2fr 2fr 3fr 2fr 2fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 18px;
+  padding-left: 38px;
+  padding-right: 70px;
+  margin-bottom: 12px;
+}
+
+.moliya__2 .moliya__tr p {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.72;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}

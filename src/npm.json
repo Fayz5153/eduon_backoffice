@@ -1,0 +1,5 @@
+{
+	"react-route-dom":" npm i react-router-dom ",
+	"line-circule-progressbar":" npm install --save rc-progress ",
+	"line-chart" :" npm install recharts "
+}

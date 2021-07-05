@@ -1,0 +1,85 @@
+.backoffice{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin-top: 40px;
+}
+.backoffice__left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-right: 1px solid #1111110f;
+    padding-right: 18px;
+    .activ__nav{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #006AFF;
+        background: #E7F0FF;
+        transition: 0.4s;
+		  #Chart{
+			path{
+				fill: #006AFF;
+			}
+			
+	  	}
+    }
+    a{
+		display: flex;
+		align-items: center;
+		width: 210px;
+		height: 52px;
+		border-radius: 12px;
+		font-family: Gilroy;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		color: rgba(17, 17, 17, 0.36);
+		transition: 0.4s;
+        img{
+			padding: 8px;
+			margin: 8px;
+			background: #FDFDFE;
+			border-radius: 8px;
+		}
+		
+	  	object{
+			padding: 7px 8px 4px 8px;
+		  	background: #FDFDFE;
+		  	border-radius: 8px;
+			margin: 10px;
+	  	}
+   }
+}
+.eduonga__foydasi{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+    width: 234px;
+    height: 90px;
+    background: rgba(17, 17, 17, 0.03);
+    border-radius: 18px;
+    h1{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #111111;
+        margin-left: 24px;
+    }
+    h2{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #111111;
+        margin-left: 24px;
+    }
+}

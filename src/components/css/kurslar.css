@@ -1,0 +1,342 @@
+.kurslar__imgs a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.kurslar__imgbig img {
+  width: 154px;
+  height: 102px;
+  border-radius: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-mask-image: url(../icons/Asset.png);
+          mask-image: url(../icons/Asset.png);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-size: 100%;
+          mask-size: 100%;
+}
+
+.kurslar__imgsmall img {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  padding: 5px;
+  -webkit-transform: translateX(-39px) translateY(5px);
+          transform: translateX(-39px) translateY(5px);
+  background: white;
+}
+
+.kurslar table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.kurslar table tr {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  grid-gap: 50px;
+}
+
+.kurslar table tr p, .kurslar table tr a {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: #111111;
+}
+
+.kurslar table tr h2 {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.54;
+}
+
+.kurslar table th {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.54;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.kurslar table th:first-child {
+  width: 198px;
+}
+
+.kurslar table .kurslar__tr {
+  padding: 18px 0px 18px 0px;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+  margin-left: 54px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kurslar table .kurslar__category {
+  padding-left: 54px;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.kurs {
+  margin-bottom: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.kurs .kurs__1 {
+  max-width: 748px;
+  border-right: 1px solid rgba(17, 17, 17, 0.06);
+}
+
+.kurs .kurs__1 .kurs__video {
+  width: 748px;
+  height: 420px;
+  background: #F1F1F1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.kurs .kurs__1 .kurs__video button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.kurs .kurs__1 .kurs__info {
+  max-width: 676px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.kurs .kurs__1 .kurs__info__1 p {
+  font-family: Gilroy-Bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #111111;
+  margin-top: 36px;
+  margin-bottom: 18px;
+}
+
+.kurs .kurs__1 .kurs__info__2 p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(17, 17, 17, 0.54);
+  margin-bottom: 54px;
+}
+
+.kurs .kurs__1 .kurs__info__2 p a {
+  color: #006AFF;
+}
+
+.kurs .kurs__1 .kurs__info__3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.kurs .kurs__1 .kurs__info__3 h1 {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #111111;
+}
+
+.kurs .kurs__1 .kurs__info__3 h1 a {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #111111;
+  color: #006AFF;
+  padding-left: 5px;
+}
+
+.kurs .kurs__1 .kurs__info__3 a {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #006AFF;
+}
+
+.kurs .kurs__1 .kurs__info__3 .kurs__views {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+}
+
+.kurs .kurs__1 .kurs__info__3 .kurs__views img {
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+}
+
+.kurs .kurs__1 .kurs__info__3 .kurs__views span {
+  opacity: 0.4;
+  padding-left: 4px;
+}
+
+.kurs .kurs__1 .kurs__info__3 .kurs__info__3__2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.kursxaqida {
+  padding: 24px 0 24px 0;
+  margin: 0 36px 0 36px;
+  border-top: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.kursxaqida h1 {
+  font-family: Gilroy-Bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #111111;
+  padding: 12px 0 12px 0;
+}
+
+.kursxaqida p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(17, 17, 17, 0.54);
+  padding: 6px 0px 6px 0px;
+}
+
+.kursxaqida div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kursxaqida img {
+  padding-right: 12px;
+}
+
+.kurs__2__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0 36px 25px 30px;
+}
+
+.kurs__2 {
+  width: 422px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.kurs__2 h1 {
+  font-family: Gilroy-Bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #111111;
+}
+
+.kurs__2 p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(17, 17, 17, 0.72);
+}
+
+.kurs__2 .kurs__2__video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 362px;
+  height: 72px;
+  background: rgba(17, 17, 17, 0.02);
+  border-radius: 14px;
+  margin: 9px 0px 9px 30px;
+}
+
+.kurs__2 .kurs__2__video img {
+  width: 24px;
+  height: 24px;
+  margin-left: 30px;
+  margin-right: 18px;
+}

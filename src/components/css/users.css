@@ -1,0 +1,397 @@
+.users img {
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  margin-right: 18px;
+}
+
+.users table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.users table tr {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+  margin-top: 30px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.users table .users__tr {
+  height: 86px;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+  margin-left: 54px;
+}
+
+.users .users__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.users .users__category {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.54;
+  padding-left: 54px;
+  padding-bottom: 30px;
+  text-align: left;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+  margin-top: 15px;
+}
+
+.users .users__category th:first-child {
+  margin-left: 16px;
+}
+
+.users .users__p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.users .users__p h2 {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 16px;
+  color: #111111;
+  opacity: 0.72;
+  padding-top: 4px;
+}
+
+.users a {
+  text-decoration: none;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: #111111;
+}
+
+.user__1__asos .user__1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 2fr;
+      grid-template-columns: 1fr 2fr 2fr;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+  padding-bottom: 36px;
+}
+
+.user__1__asos .user__1 img {
+  width: 172px;
+  height: 172px;
+  border-radius: 18px;
+}
+
+.user__1__asos .user__1 .user__pic {
+  padding-left: 30px;
+}
+
+.user__1__asos .user__1 p {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(17, 17, 17, 0.72);
+  width: 430px;
+  height: 76px;
+  background: rgba(17, 17, 17, 0.02);
+  border-radius: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 30px;
+  margin: 10px 0px;
+}
+
+.user__1__asos .user__2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.user__1__asos .user__2 h1 {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(17, 17, 17, 0.36);
+  padding: 36px 0px 18px 36px;
+}
+
+.user__1__asos .user__2 input {
+  width: 334px;
+  height: 76px;
+  background: #11111124;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: #111111;
+  opacity: 0.3;
+  padding-left: 30px;
+  margin-right: 12px;
+}
+
+.user__1__asos .user__2 .user__ban {
+  padding-right: 18px;
+  border-right: 1px solid rgba(17, 17, 17, 0.06);
+}
+
+.user__1__asos .user__2 .user__ban a {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: #EB5757;
+  width: 178px;
+  height: 76px;
+  background: #eb575748;
+  border-radius: 18px;
+  padding: 24px 30px;
+}
+
+.user__1__asos .user__2 .user__ban div {
+  padding: 0px 0px 44px 30px;
+}
+
+.user__1__asos .user__2 .user__vaucher {
+  border-left: 1px solid rgba(17, 17, 17, 0.06);
+}
+
+.user__1__asos .user__2 .user__vaucher a {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: #006AFF;
+  width: 178px;
+  height: 76px;
+  background: #E7F0FF;
+  border-radius: 18px;
+  padding: 24px 30px;
+}
+
+.user__1__asos .user__2 .user__vaucher h1 {
+  padding: 36px 0px 18px 26px;
+}
+
+.user__1__asos .user__2 .user__vaucher div {
+  padding-left: 18px;
+}
+
+.user__1__asos .user__3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 36px 0px 24px 30px;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.user__1__asos .user__3 h1 {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(17, 17, 17, 0.36);
+  text-align: left;
+  padding-bottom: 18px;
+}
+
+.user__1__asos .user__3 a {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: #EB5757;
+  width: 178px;
+  height: 76px;
+  background: #eb575748;
+  border-radius: 18px;
+  padding: 24px 30px;
+}
+
+.user__1__asos .user__3 textarea {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: #111111;
+  background: #11111124;
+  opacity: 0.3;
+  width: 100%;
+  height: 194px;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  padding: 24px 30px;
+  margin-right: 56px;
+}
+
+.user__1__asos .user__3 div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user__1__asos .user__3 .user__3__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user__1__asos .user__3 .user__3__3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 56px;
+  margin-top: 18px;
+}
+
+.user__1__asos .user__4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 36px 30px;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.user__1__asos .user__4 p {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: #111111;
+  padding-right: 54px;
+  font-weight: 600;
+}
+
+.user__1__asos .user__4 p span {
+  color: #006AFF;
+}
+
+.user__1__asos .user__5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 24px 30px;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.user__1__asos .user__5 p {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: #111111;
+  padding: 12px 0px;
+}
+
+.user__1__asos .user__5 p span {
+  font-weight: 600;
+}
+
+.user__1__asos .user__5 .user__tolovlar {
+  padding-left: 100px;
+}
+
+.user__1__asos .user__6 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding: 36px 30px;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.user__1__asos .user__6 p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(17, 17, 17, 0.36);
+  padding-bottom: 18px;
+}
+
+.user__1__asos .user__6 h1 {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(17, 17, 17, 0.72);
+  width: 524px;
+  height: 76px;
+  border-radius: 18px;
+  background: #f5f5f5;
+  padding: 24px 0px 24px 30px;
+  margin-bottom: 24px;
+}
+
+.user__2__asos {
+  padding: 30px 56px 50px 30px;
+}
+
+.user__2__asos h1 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(17, 17, 17, 0.36);
+  padding-bottom: 18px;
+}
+
+.user__2__asos table {
+  width: 100%;
+}
+
+.user__2__asos .user__tr {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.5fr 2.5fr 3fr 2.5fr 2fr;
+      grid-template-columns: 1.5fr 2.5fr 3fr 2.5fr 2fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 18px;
+  padding-left: 38px;
+  padding-right: 70px;
+  margin-bottom: 12px;
+}
+
+.user__2__asos .user__tr p {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.72;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}

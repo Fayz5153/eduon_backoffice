@@ -1,0 +1,114 @@
+.karantin__2{
+    transition: 0.3s;
+    img{
+        width: 54px;
+        height: 54px;
+        border-radius: 16px;
+        margin-right: 18px;
+    }
+    table{
+        display: flex;
+        flex-direction: column;
+        tr{
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 3fr;
+            margin-top: 30px;
+            align-items: flex-start;
+        }
+        .karantin__tr{
+            height: 86px;
+            border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+            margin-left: 54px;
+        }
+    }
+    .karantin__info{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+    }
+    .karantin__category{
+        font-family: Gilroy-Medium;
+        font-size: 16px;
+        line-height: 19px;
+        color: #111111;
+        opacity: 0.54;
+        padding-left: 54px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: left;
+        border-top: 2px solid rgba(17, 17, 17, 0.06);
+        border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+        th:first-child{
+            margin-left: 16px;
+        }
+
+    }
+    .karantin__p{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-family: Gilroy-Medium;
+            font-size: 14px;
+            line-height: 16px;
+            color: #111111;
+            opacity: 0.72;
+            padding-top: 4px;
+        }
+    }
+    a{
+        text-decoration: none;
+        font-family: Gilroy-Medium;
+        font-size: 18px;
+        line-height: 21px;
+        color: #111111;
+    }
+}
+.karantin__1{
+    margin-top: 30px;
+    margin-left: 30px;
+    a{
+        font-family: Gilroy-Medium;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(17, 17, 17, 0.54);
+        padding: 14px 16px;
+    }
+    .karantin__activ{
+        background: #E7F0FF;
+        border-radius: 12px;
+        transition: 0.3s;
+        color: #006AFF;
+    }
+}
+.page__links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 54px;
+    margin-top: 36px;
+    margin-bottom: 63px;
+    a{
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Gilroy-Medium;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #006AFF;
+        opacity: 0.54;
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .page__activ{
+        background: #E7F0FF;
+        border-radius: 8px;
+        color: #006AFF;
+    }
+}

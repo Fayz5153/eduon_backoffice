@@ -1,0 +1,81 @@
+.tasdiq {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tasdiq__group {
+  width: 300px;
+  height: 327px;
+  border: 2px solid #1111110f;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 24px;
+  padding: 24px;
+  margin-right: 36px;
+  margin-bottom: 36px;
+}
+
+.tasdiq__group h1 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #111111;
+}
+
+.tasdiq__group p {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.tasdiq__group p span {
+  color: #1111117a;
+}
+
+.tasdiq__group a {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #006AFF;
+}
+
+.tasdiq__group .tasdiq__a {
+  padding: 12px 18px;
+  background: #E7F0FF;
+  border-radius: 12px;
+}
+
+.tasdiq__group .radetish {
+  color: #EB5757 !important;
+  padding-right: 25px;
+}
+
+.tasdiq__g2 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 18px;
+  margin-bottom: 12px;
+  border-top: 2px solid rgba(17, 17, 17, 0.06);
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.tasdiq__g3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
