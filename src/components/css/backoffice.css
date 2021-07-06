@@ -114,3 +114,21 @@
   color: #111111;
   margin-left: 24px;
 }
+
+.tasdiq__activ {
+  border-radius: 12px;
+  color: #006AFF !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.back_tasdiq {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(17, 17, 17, 0.54);
+  padding: 14px 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}

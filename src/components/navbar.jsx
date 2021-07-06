@@ -4,6 +4,7 @@ import arrowdown from "./icons/arrowdown.svg"
 import Search from "./icons/Search.svg"
 import close from "./icons/close.svg"
 import user from "./image/user.jpg"
+import logo from "./image/logo.svg"
 
 class Navbar extends Component {
     state = { 
@@ -21,6 +22,9 @@ class Navbar extends Component {
                     <div>
                         <nav  className="container">
                             <div className="navbar__bo__left">
+                                <img src={logo} alt="" />
+                            </div>
+                            <div className="navbar__bo__right">
                                 {this.state.search === false ?
                                     <div className="bo__searchdiv">
                                         <button ><img src={Search} alt="" /></button>
@@ -31,8 +35,6 @@ class Navbar extends Component {
                                         <button onClick={this.handlesearch}><img src={Search} alt="" /></button>
                                     </div>
                                 }
-                            </div>
-                            <div className="navbar__bo__right">
                                 <div className="language">
                                     <p>O'z</p>
                                     <ul className="languages">

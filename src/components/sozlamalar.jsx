@@ -61,6 +61,16 @@ class Sozlamalar extends Component {
                                 <a href="#">Tasdiqlash</a>
                             </div>
                         </div>
+                        <div className="sozlama2 sozlama__xabar">
+                            <div className="sozlama2__p">
+                                <p>Spikerga habar qoldirish</p>
+                            </div>
+                            <div className="sozlama__input">
+                                <input type="text" placeholder="Ismni kiriting"/>
+                                <textarea name="" placeholder="Xabarni yozing" id="" cols="30" rows="10"></textarea>
+                                <a href="#">Yuborish</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </React.Fragment>

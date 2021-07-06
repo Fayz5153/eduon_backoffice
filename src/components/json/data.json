@@ -1,57 +1,57 @@
 [{
 	"id": 1,
 	"Summa": 5000,
-	"day": "du"
+	"hafta_kuni": "du"
  }, {
 	"id": 2,
 	"Summa": 9000,
-	"day": "se"
+	"hafta_kuni": "se"
  }, {
 	"id": 3,
 	"Summa": 6000,
-	"day": "ch"
+	"hafta_kuni": "ch"
  }, {
 	"id": 4,
 	"Summa": 7000,
-	"day": "pa"
+	"hafta_kuni": "pa"
  }, {
 	"id": 5,
 	"Summa": 9000,
-	"day": "ju"
+	"hafta_kuni": "ju"
  }, {
 	"id": 6,
 	"Summa": 5000,
-	"day": "sh"
+	"hafta_kuni": "sh"
  }, {
 	"id": 7,
 	"Summa": 8000,
-	"day": "ya"
+	"hafta_kuni": "ya"
  }, {
 	"id": 8,
 	"Summa": 5000,
-	"day": "du"
+	"hafta_kuni": "du"
  }, {
 	"id": 9,
 	"Summa": 9000,
-	"day": "se"
+	"hafta_kuni": "se"
  }, {
 	"id": 10,
 	"Summa": 6000,
-	"day": "ch"
+	"hafta_kuni": "ch"
  }, {
 	"id": 11,
 	"Summa": 5000,
-	"day": "pa"
+	"hafta_kuni": "pa"
  }, {
 	"id": 12,
 	"Summa": 8000,
-	"day": "ju"
+	"hafta_kuni": "ju"
  }, {
 	"id": 13,
 	"Summa": 5000,
-	"day": "sh"
+	"hafta_kuni": "sh"
  }, {
 	"id": 14,
 	"Summa": 7000,
-	"day": "ya"
+	"hafta_kuni": "ya"
  }]

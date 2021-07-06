@@ -239,3 +239,55 @@
         }
     }
 }
+.kurs__2__ban{
+    width: 362px;
+    margin-left: 30px;
+    div{
+        width: 100%;
+    }
+    h1{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        color: rgba(17, 17, 17, 0.36);
+        padding-top: 24px;
+        padding-bottom: 18px;
+    }
+    a{
+        font-family: Gilroy-Medium;
+        font-size: 24px;
+        line-height: 28px;
+        color: #EB5757;
+        width: 178px;
+        height: 76px;
+        background: #eb575748;
+        border-radius: 18px;
+        padding: 24px 30px;
+    }
+    textarea{
+        width: 362px;
+        height: 179px;
+        background: rgba(17, 17, 17, 0.02);
+        border-radius: 18px;
+        border: none;
+        outline: none;
+        font-size: 24px;
+        line-height: 28px;
+        color: #111111;
+        background: #11111124;
+        opacity: 0.3;
+        padding: 24px 30px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .kurs__2__ban_3{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 18px;
+    }
+}

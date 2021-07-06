@@ -43,7 +43,7 @@ a{
     nav{
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: space-between;
         height: 100px;
     }
     button{
@@ -56,6 +56,11 @@ a{
     }
 }
 .navbar__bo__left{
+    
+}
+.navbar__bo__right{
+    display: flex;
+    align-items: center;
     button{
         outline: none;
         border: none;
@@ -74,10 +79,6 @@ a{
         display: flex;
         align-items: center;
     }
-}
-.navbar__bo__right{
-    display: flex;
-
     .language{
         display: flex;
         align-items: center;

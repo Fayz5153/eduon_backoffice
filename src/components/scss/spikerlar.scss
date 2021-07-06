@@ -151,9 +151,29 @@
 				padding: 24px 30px;
 			}
 			div{
-				padding: 0px 0px 44px 0px;
+				padding: 0px 0px 18px 0px;
 			}
-			
+			textarea{
+				font-family: Gilroy-Medium;
+				font-size: 24px;
+				line-height: 28px;
+				color: #111111;
+				background: #11111124;
+				opacity: 0.3;
+				width: 524px;
+				height: 166px;
+				border-radius: 18px;
+				border: none;
+				outline: none;
+				padding: 24px 30px;
+				margin-right: 17px;
+			}
+			.spiker__3__3{
+				display: flex;
+				justify-content: flex-end;
+				padding-right: 18px;
+				margin-top: -4px;
+			}
 			padding-left: 17px;
 			border-left: 1px solid rgba(17, 17, 17, 0.06);
 		}
@@ -188,13 +208,14 @@
 			background: #11111124;
 			opacity: 0.3;
 			width: 524px;
-			height: 166px;
+			height: 260px;
 			border-radius: 18px;
 			border: none;
 			outline: none;
 			padding: 24px 30px;
 			margin-right: 17px;
 		}
+
 		div{
 			width: 100%;
 			display: flex;
@@ -206,7 +227,7 @@
 		.spiker__3__3{
 			display: flex;
 			justify-content: flex-end;
-    		padding-right: 56px;
+    		padding-right: 18px;
 			margin-top: 18px;
 		}
 	}

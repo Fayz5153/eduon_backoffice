@@ -83,13 +83,13 @@ class Statistika extends Component {
 								bottom: 5
 							}}
 							>
-							<XAxis dataKey="day" />
+							<XAxis dataKey="hafta_kuni" />
 							<YAxis />
 							<Tooltip />
 							<CartesianGrid vertical={false} stroke="rgba(17, 17, 17, 0.06)" />
 							<Legend />
 							<Bar dataKey="Auditoriya" fill="#006AFF" />
-							<Bar dataKey="Kontent" fill="#c3c6cc90" />
+							<Bar dataKey="Kontent" fill="#939599" />
 						</BarChart>
 						</div>
 						<div className="stat__2_2">
@@ -130,7 +130,7 @@ class Statistika extends Component {
 										<stop offset="95%" stopColor="#006AFF" stopOpacity={0}/>
 									</linearGradient>
 								</defs>
-								<XAxis dataKey="day" axisLine={false}/>
+								<XAxis dataKey="hafta_kuni" axisLine={false}/>
 								<YAxis axisLine={true}/>
 								<CartesianGrid vertical={false} stroke="rgba(17, 17, 17, 0.06)"/>
 								<Tooltip />

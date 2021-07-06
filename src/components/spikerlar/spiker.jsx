@@ -40,6 +40,8 @@ class Spiker extends Component {
 										<div className="spiker__ban">
 											<h1>Ban berish</h1>
 											<div><input type="text" placeholder="Kunni kiriting" /><a href="#">Tasdiqlash</a></div>
+											<div><textarea type="text" placeholder="Sababini yozing..." ></textarea></div>
+											<div className="spiker__3__3"><a href="#">Tasdiqlash</a></div>
 										</div>
 									</div>
 									<div className="spiker__4">

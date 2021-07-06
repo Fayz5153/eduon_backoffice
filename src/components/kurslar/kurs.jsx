@@ -104,7 +104,11 @@ class Kurs extends Component {
                                 </a>
                             )
                         })}
-                        
+                        <div className="kurs__2__ban">
+                            <div><h1>Karantinga yuborish</h1></div>
+                            <div><textarea name="" placeholder="Sababini yozing..." id="" cols="30" rows="10"></textarea></div>
+                            <div  className="kurs__2__ban_3"><a href="#">Tasdiqlash</a></div>
+                        </div>
                     </div>
                 </div>
             </React.Fragment>

@@ -60,3 +60,48 @@
     align-items: center;
     justify-content: space-between;
 }
+.tasdiq__img{
+    border-radius: 18px;
+    img{
+        width: 252px;
+        height: 168px;
+        border-radius: 18px;
+    }
+}
+.tasdiq__kurs{
+    width: 252px;
+    height: 327px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    .tasdiq__g3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 2px solid rgba(17, 17, 17, 0.06);
+        padding-top: 12px;
+    }
+    .tasdiq__a{
+        padding: 12px 18px;
+        background: #E7F0FF;
+        border-radius: 12px;
+    }
+    .radetish{
+        color: #EB5757 !important;
+        padding-right: 25px;
+    }
+    a{
+        font-family: Gilroy-Medium;
+        font-size: 16px;
+        line-height: 19px;
+        color: #006AFF;
+    }
+    p{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(17, 17, 17, 0.72);
+        padding: 18px 0px 24px 0px;
+    }
+}

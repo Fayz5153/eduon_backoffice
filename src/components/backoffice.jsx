@@ -3,6 +3,7 @@ import {BrowserRouter, NavLink, Switch, Route } from "react-router-dom"
 import Karantin from './karantin';
 import Sozlamalar from './sozlamalar';
 import Tasdiq from './tasdiq';
+import Tasdiq_kurs from './tasdiq_kurs';
 import Moliya from './moliya';
 import Kurs_section from './kurslar/kurs_section';
 import Users from './users/users';
@@ -129,7 +130,20 @@ class Backoffice extends Component {
 									 </Route>
                             <Route path="/kurslar/barchasi" component={Kurs_section}/>
                             <Route path="/moliya/barchasi" component={Moliya}/>
-                            <Route path="/tasdiqlar" component={Tasdiq}/>
+                            <Route path="/tasdiqlar">
+								<BrowserRouter>
+									<NavLink className="back_tasdiq" activeClassName="tasdiq__activ" exact to="/tasdiqlar">Spikerlar</NavLink>
+									<NavLink className="back_tasdiq" activeClassName="tasdiq__activ" to="/tasdiqlar/kurs">Kurslar</NavLink>
+									<Switch>
+										<Route exact path="/tasdiqlar">
+											<Tasdiq/>
+										</Route>
+										<Route path="/tasdiqlar/kurs">
+											<Tasdiq_kurs/>
+										</Route>
+									</Switch>
+								</BrowserRouter>
+							</Route>
                             <Route path="/sozlamalar" component={Sozlamalar}/>
                             <Route path="/karantin/barchasi" component={Karantin}/>
                         </Switch>
